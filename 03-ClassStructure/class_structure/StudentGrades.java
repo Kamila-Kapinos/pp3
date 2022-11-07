@@ -114,7 +114,7 @@ public class StudentGrades {
     }
 
     public static void main(String[] args){
-        double[] a = {3.5, 4.5, 4.0, 2.0, 5.0, 3.5, 3.0}; 
+        double[] a = {3.5, 4.5, 4.1, 2.0, 5.0, 3.5, 3.0}; 
         StudentGrades sg1 = new StudentGrades("Amanda", a);
         sg1.calculateGradesNum();
         sg1.highestGrade();
