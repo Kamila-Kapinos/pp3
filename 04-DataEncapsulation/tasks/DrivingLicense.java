@@ -15,12 +15,9 @@ public class DrivingLicense {
     // }
 
     public String toString(){
-        String drivingLicense = "";
-        drivingLicense += getName();
-        // return "Name: " + getName() + "\nSurname: " + getSurname() +
-        // "\nAdress: " + getAdress() + "\nPostal code: " + getPostalCode() + "\nCity: " + getCity()
-        // + "\nDriving license number: " + getNum() + "\nYear: " + getYear() + "\nCategory: " + getCategory();
-        return drivingLicense;
+        return "Name: " + getName() + "\nSurname: " + getSurname() +
+        "\nAdress: " + getAdress() + "\nPostal code: " + getPostalCode() + "\nCity: " + getCity()
+        + "\nDriving license number: " + getNum() + "\nYear: " + getYear() + "\nCategory: " + getCategory();  
     }
 
     public void setName(String name){

@@ -1,14 +1,14 @@
-public class Person {
+public class People {
     //atrybuty
     String name;
     double weight;
     double height;
 
-    public Person(String name){
+    public People(String name){
         this.name = name;
     }
 
-    public Person(String name, double weight, double height){
+    public People(String name, double weight, double height){
         this.name = name;
         this.weight = weight;
         this.height = height;
@@ -36,15 +36,15 @@ public class Person {
     }
 
     public static void main(String[] args){
-        Person p1 = new Person("Kamila", 43, 163);
+        People p1 = new People("Kamila", 43, 163);
         p1.calculateBMI();
         p1.displayRecord();
 
-        Person p2 = new Person("Ala", 60, 160);
+        People p2 = new People("Ala", 60, 160);
         p2.calculateBMI();
         p2.displayRecord();
 
-        Person p3 = new Person("Edward", 100, 175);
+        People p3 = new People("Edward", 100, 175);
         p3.calculateBMI();
         p3.displayRecord();
     }
