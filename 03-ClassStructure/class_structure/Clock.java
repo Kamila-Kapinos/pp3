@@ -49,10 +49,11 @@ public class Clock {
         }
     }
 
-    public void displayTime(){
-        System.out.println(formatTime(this.hour) + ":" + formatTime(this.minute));
+    public String displayTime(){
+        return String.format("%02d:%02d", this.hour, this.minute);
+        //System.out.println(formatTime(this.hour) + ":" + formatTime(this.minute));
     }
-
+    
     public void addOneMinute(){
         this.minute ++;
         if(!checkTime(this.hour, this.minute)){
@@ -82,8 +83,8 @@ public class Clock {
     }
 
     public static void main(String[] args){
-        Clock c1 = new Clock(12, 47);
-        c1.displayTime();
+        Clock c1 = new Clock(2, 47);
+        System.out.println(c1.displayTime());
         c1.setClock(18, 14);
         c1.displayTime();
         c1.setClock(9, 3);

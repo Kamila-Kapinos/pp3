@@ -1,8 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "03-ClassStructure/class_structure",
         "05-Test1/mock",
-        "04-DataEncapsulation/tasks"
-    ],
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
+        "03-ClassStructure/class_structure"
+    ]
 }

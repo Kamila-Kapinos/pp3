@@ -22,7 +22,7 @@ public class People {
     }
 
     public double calculateBMI(){
-        return this.weight/(this.height * this.height * 0.0001);
+        return Math.round(weight * 100/(this.height * this.height * 0.0001))/100.0;
     }
 
     public void displayRecord(){

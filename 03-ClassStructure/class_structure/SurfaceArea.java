@@ -1,9 +1,9 @@
 public class SurfaceArea
 {
-    final static double PI = 3.14;
+    // final static double PI = 3.14;
     
     public static double circleArea(double r){
-        return r * r * PI;
+        return Math.round(r* r * Math.PI * 100)/100.0;
     }
     
     

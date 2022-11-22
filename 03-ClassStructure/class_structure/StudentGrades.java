@@ -19,18 +19,19 @@ public class StudentGrades {
     }  
     
     
-    public StudentGrades(String name, double[] grades){
+    public StudentGrades(String name, double[] grades) throws IllegalArgumentException { 
         this.studentName = name;
-        try{
+        // try{
             for(double grade : grades){
                 if(!checkGrade(grade)){
-                    throw new Exception("Error...");  
+                    throw new IllegalArgumentException("These grades are not valid");  
                 }
             } 
-        this.grades = grades;
-        }catch (Exception err) {
-                System.out.println("Wrong grade: " + err.getMessage());
-            }
+            this.grades = grades;
+        // }catch (Exception err){
+        //     System.out.println("Wrong grade: " + err.getMessage());
+        //     this.grades = new double[0];
+        // }
     }
 
     public StudentGrades(String name, int numberOfGrades){
@@ -83,7 +84,7 @@ public class StudentGrades {
     }
 
     public double highestGrade(){
-        double max = 0;
+        double max = 0.0;
         for(double el : this.grades){
             if(el > max){
                 max = el;
