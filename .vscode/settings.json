@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "05-Test1/mock",
-        "03-ClassStructure/class_structure"
+        "03-ClassStructure/class_structure",
+        "06-ConceptualModeling/tasks"
     ]
 }
