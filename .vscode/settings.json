@@ -3,6 +3,7 @@
         "05-Test1/mock",
         "03-ClassStructure/class_structure",
         "06-ConceptualModeling/tasks",
-        "07-AggregationAndComposition"
+        "07-AggregationAndComposition",
+        "08-InheritanceAndPolymorphism/tasks8"
     ]
 }

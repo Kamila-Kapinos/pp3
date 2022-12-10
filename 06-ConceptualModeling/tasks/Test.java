@@ -7,7 +7,7 @@ public class Test {
         System.out.print(c1);
 
         System.out.println();
-        Book b1 = new Book("HP", 123, "fantasy");
+        Book b1 = new Book("HP", "fantasy");
         System.out.print(b1);
 
         System.out.println();
