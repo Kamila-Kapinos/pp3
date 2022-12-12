@@ -4,6 +4,8 @@
         "03-ClassStructure/class_structure",
         "06-ConceptualModeling/tasks",
         "07-AggregationAndComposition",
-        "08-InheritanceAndPolymorphism/tasks8"
-    ]
+        "08-InheritanceAndPolymorphism/tasks8",
+        "09-Test2/mock2"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
