@@ -4,14 +4,14 @@ public class Library {
     private ArrayList<Book> bookCase;
 
     public Library(){
-        bookCase = new ArrayList<>();
+        this.bookCase = new ArrayList<>();
     }
 
 //addBook 3 razy
 
     public void addBook(String title, String author, Publisher publisher, int publicationYear){
         Book book = new Book(title, author, publisher, publicationYear);
-        bookCase.add(book);
+        this.bookCase.add(book);
     }
 
     public void addBook(String title, String author, Publisher publisher, int publicationYear, int minutes, int seconds){

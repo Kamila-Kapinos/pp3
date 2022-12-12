@@ -10,7 +10,7 @@ public class Family {
         
         int counter = 0;
         for(Person person: people){
-            if(person.getAge() > 18){
+            if(person.getAge() >= 18){
                 counter ++;
             }
         }

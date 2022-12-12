@@ -15,8 +15,9 @@ public class Car extends Vehicle{
         return this.maxSpeed;
     }
 
-    public String spec(){ 
+    public int[] spec(){ 
         int[] speci = new int[]{getSeats(), getMaxSpeed()};
-        return Arrays.toString(speci);
+        return speci;
+        // return new int[] {this.getSeats(),this.maxSpeed};
     }
 }

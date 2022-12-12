@@ -17,7 +17,6 @@ public class SurfaceArea
  
     
     public static void main(String[] args){
-    
         System.out.println(circleArea(2));
         System.out.println(rectangleArea(2, 4));
         System.out.println(triangleArea(4, 5));
