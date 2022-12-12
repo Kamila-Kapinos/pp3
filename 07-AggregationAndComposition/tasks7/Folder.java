@@ -10,7 +10,7 @@ public class Folder {
 
     public Folder(String name) {
         this.name = name;
-        this.files = new File[0];
+        this.files = new File[0]; 
         this.filesNum = 0;
     }
 

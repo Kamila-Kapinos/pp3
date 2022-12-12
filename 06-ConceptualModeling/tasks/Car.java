@@ -8,7 +8,7 @@ public class Car {
     public Car(String carName, String brand) {
         this.carName = carName;
         this.brand = brand;
-        speedometer = 0;
+        this.speedometer = 0;
     }
 
     public void setName(String name){
